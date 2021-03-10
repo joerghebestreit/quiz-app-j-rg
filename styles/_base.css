@@ -19,3 +19,87 @@ input,
 button {
   font-size: 1em;
 }
+
+.layout {
+  display: grid;
+  height: 100vh;
+  min-width: 320px;
+  max-width: 60vw;
+  grid-template-rows: 80px auto 80px;
+  margin: 0 auto;
+}
+
+.layout header {
+  grid-row: 1 /2;
+  background-color: #f78b11;
+  text-align: center;
+}
+
+.layout main {
+  display: flex;
+  flex-direction: column;
+  grid-row: 2 / 3;
+  background-color: #f0b03a;
+  overflow-y: scroll;
+}
+
+.layout footer {
+  display: flex;
+  grid-row: 3 / 4;
+  background-color: #f78b11;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.box1 {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.box3 {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.box4 {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainbox1 {
+  border: black;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainbox2 {
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainbox3 {
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainbox4 {
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
