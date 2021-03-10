@@ -19,3 +19,66 @@ input,
 button {
   font-size: 1em;
 }
+
+.layout {
+  display: grid;
+  grid-template-rows: 90px auto 100px;
+}
+
+.body {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.layout header {
+  grid-row: 1 /2;
+  background-color: #d46053;
+  text-align: center;
+  position: fixed;
+  width: 700px;
+}
+
+.layout main {
+  grid-row: 2 / 3;
+  background-color: #64b1d8;
+}
+
+.layout footer {
+  display: flex;
+  grid-row: 3 / 4;
+  background-color: #76a385;
+  justify-content: center;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  width: 700px;
+}
+
+.box1 {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.box3 {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.box4 {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+}
