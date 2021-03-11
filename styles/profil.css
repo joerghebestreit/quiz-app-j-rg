@@ -31,7 +31,14 @@ button {
 
 .layout header {
   grid-row: 1 /2;
-  background-color: #f78b11;
+  background-image: linear-gradient(
+    to left,
+    #da7800,
+    #d98115,
+    #d98a23,
+    #d89230,
+    #d89a3d
+  );
   text-align: center;
 }
 
@@ -46,9 +53,22 @@ button {
 .layout footer {
   display: flex;
   grid-row: 3 / 4;
-  background-color: #f78b11;
+  background-image: linear-gradient(
+    to left,
+    #da7800,
+    #d98115,
+    #d98a23,
+    #d89230,
+    #d89a3d
+  );
   justify-content: center;
   flex-direction: row;
+}
+
+.profilpic {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
 }
 
 .box1 {
@@ -86,7 +106,8 @@ button {
   border: black;
   margin: 20px;
   background-color: #d89a3d;
-  position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
 .tag1 {
@@ -103,7 +124,7 @@ button {
   display: flex;
   flex-direction: column;
   margin: 20px;
-  background-color: #d89a3d;
+  background-color: rgb(216, 154, 61);
   position: relative;
 }
 
@@ -118,17 +139,17 @@ button {
 
 .mainbox3 {
   padding: 10px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   margin: 20px;
   background-color: #d89a3d;
-  position: relative;
 }
 
 .tag3 {
-  display: flex;
-  flex-direction: row;
+  display: grid;
   list-style: none;
+  flex-direction: row;
   padding: 0px;
   justify-content: space-evenly;
   align-items: center;
@@ -152,12 +173,38 @@ button {
   align-items: center;
 }
 
-.tagitem {
+.itemh {
+  grid-column: 1 / 3;
+}
+
+.tagitem1 {
   border: 2px solid black;
   padding: 5px;
   border-radius: 10%;
+  grid-column: 1;
+  grid-row: 2;
 }
-
+.tagitem2 {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10%;
+  grid-column: 2;
+  grid-row: 2;
+}
+.tagitem3 {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10%;
+  grid-column: 1;
+  grid-row: 3;
+}
+.tagitem4 {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10%;
+  grid-column: 2;
+  grid-row: 3;
+}
 .button {
   cursor: pointer;
 }
