@@ -1,13 +1,11 @@
 .icon {
-  width: 3rem;
-  height: 3rem;
-  color: white;
+  width: 35px;
+  height: 35px;
 }
 
 .icon4 {
   width: 3rem;
   height: 3rem;
-  color: white;
   position: absolute;
   top: -20px;
   right: 20px;
