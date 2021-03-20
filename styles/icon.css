@@ -10,4 +10,15 @@
   top: -20px;
   right: 20px;
   cursor: pointer;
+  fill: none;
+}
+
+.icon4filled {
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  cursor: pointer;
+  fill: black;
 }

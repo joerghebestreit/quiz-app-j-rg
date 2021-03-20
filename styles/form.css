@@ -43,15 +43,6 @@ button {
   overflow-y: scroll;
 }
 
-.layoutMainDark {
-  display: flex;
-  flex-direction: column;
-  grid-row: 2 / 3;
-  background-color: #7e4700;
-  overflow-y: scroll;
-  color: white;
-}
-
 .layoutFooter {
   display: flex;
   grid-row: 3 / 4;
@@ -88,7 +79,7 @@ button {
   align-items: center;
 }
 
-.mainbox {
+.mainbox1 {
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -99,18 +90,64 @@ button {
   box-shadow: 0px 0px 6px -1px #000000;
 }
 
-.mainboxDark {
+.tag1 {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.mainbox2 {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  border: black;
   margin: 20px;
-  background-color: #331b00;
+  background-color: #d89a3d;
   position: relative;
-  color: white;
+  box-shadow: 0px 0px 6px -1px #000000;
 }
 
-.tag {
+.tag2 {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.mainbox3 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: #d89a3d;
+  position: relative;
+  box-shadow: 0px 0px 6px -1px #000000;
+}
+
+.tag3 {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.mainbox4 {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: #d89a3d;
+  position: relative;
+  box-shadow: 0px 0px 6px -1px #000000;
+}
+
+.tag4 {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -125,18 +162,6 @@ button {
   border-radius: 10%;
 }
 
-.button1 {
-  cursor: pointer;
-}
-
-.button2 {
-  cursor: pointer;
-}
-
-.button3 {
-  cursor: pointer;
-}
-
-.button4 {
+.button {
   cursor: pointer;
 }

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body class="body">
+    <div class="layout">
+      <header class="layoutHeader">
+        <h1>Quiz App</h1>
+      </header>
+      <main class="layoutMain">
+        
+        <section class="mainbox1">
+          <form class="form">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="start">Start date:</label>
+            <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31"><br><br>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" size="20" required><br><br>
+            <label for="name">your Question:</label>
+            <input type="text" id="name" name="name" required minlength="6" maxlength="8" size="20" height="20">
+            <br>
+            <br>
+            <button class="button">subscrib</button>
+          </form>
+        </section>
+          <script src="form.js"></script>
+      </main>
+      <footer class="layoutFooter">
+        <a class="box2" href="/index.html"><img class="icon" src="styles/icons-svg/icon1.svg" alt="icon"></a><hr>
+        <a class="box3" href=""><img class="icon" src="styles/icons-svg/icon2.svg" alt="icon"></a><hr>
+        <a class="box4" href=""><img class="icon" src="styles/icons-svg/icon3.svg" alt="icon"></a><hr>
+        <a class="box1" href="/profil.html"><img class="icon" src="styles/icons-svg/icon4.svg" alt="icon"></a>
+      </footer>
+    </div>
+  </body>
+</html>
